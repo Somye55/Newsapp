@@ -1,0 +1,37 @@
+# list1 = []
+# element=input('Enter list elements= \n')
+# while(element!=''):
+# 	list1.append(element)
+# 	element=input()
+
+# list1 = [1,2,3,4,5]
+# target = int(input('Enter target sum= \n'))
+# for i in range(0,len(list1)-1):
+# 	for j in range(i+1,len(list1)):
+# 		if (list1[i]+list1[j]==target) :
+#                     print("Pair with a given sum " , " is (" , list1[i] , ", " , list1[j] , ")")
+
+# for i in range(int(input('Enter the number of test cases: \n'))):
+#     n = int(input('Enter the number of coins: \n'))
+#     k = int(input('Enter the number of people: \n'))
+#     tuzik = n%k
+#     print('Tuzik will get %d coin(s)'%(tuzik))
+
+try:
+    for i in range(int(input())):
+        n,k = input().split()
+        n,k = int(n),int(k)
+        print(n%k)
+except:
+     a=5
+    
+
+ 
+      
+            
+    
+      
+
+    
+            
+
